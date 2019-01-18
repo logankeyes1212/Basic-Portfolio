@@ -1,0 +1,314 @@
+.body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    background: url("file:///Users/loganschool/Basic-Portfolio/assets/images/gravel/gravel.jpg");
+    margin: auto;
+    position: absolute;
+    background-position: center;
+    height: 100%;
+    }
+    .heading {
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        position: fixed;
+        width: 20%;
+        top:-13px;
+        color: #ffff;
+        background-color: #4aaaa5;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        text-align: center;
+        float: left;
+        left: 11%;
+        z-index: 20;
+        }
+    .backheading {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: -50px;
+
+    }
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      overflow: hidden;
+      position: fixed;
+      top: 0%;
+      background-color: white;
+      width: 97%;
+      height: 80px; 
+      text-align: right;
+      border-bottom: 2px solid #7777;
+      padding-right: 20%;
+    }
+    
+li {
+      float: right;
+      right: 400px;
+      
+    }
+    
+li a {
+      display: block;
+      color:#7777;
+      text-align: center;
+      padding: 34px 30px;
+      text-decoration: none;
+      border-right: 2px solid #7777;    
+      margin-right: 12px;
+      
+    }
+    
+li a:hover {
+      background-color:lightskyblue;
+    }
+.white {
+     position: relative;
+     background-color: white;
+     width: 960px;
+     top:20%;
+     left: 10%;
+     right: 10%;
+     height: 63%;
+     text-align: left;
+     padding-right: 10px;     
+ }
+ .container {
+     position: fixed;
+    width: 960px;
+    top: 20%;
+    bottom: 20%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-top: 100px;
+    right: 20%;
+    margin-left: 10%; 
+  }
+
+.line1 {
+    position: relative;
+    background-color: #7777;
+    z-index: 10;
+    height: 1px;
+    padding: 1px;
+    width: 900px;
+    margin: 20px;
+    top: -100px;
+      }
+
+.line {
+    position: relative;
+    background-color: #7777;
+    z-index: 10;
+    height: 1px;
+    padding: 1px;
+    width: 900px;
+    margin: 20px;
+    top: -5px;
+      }
+  
+        
+img {
+      float: left;
+      width: 90;
+      height: 60;
+      margin-right: 15px;
+    }
+.img1 {
+    position: absolute;
+    float:left;
+    width: 160px;
+    height: 120px;
+    margin-right:200px;
+    z-index: 5;
+} 
+.img2 {
+    position: absolute;
+    float:left;
+    width: 160px;
+    height: 120px;
+    left:20px;
+    z-index: 5;
+    top:240px;
+ }
+ .img3 {
+    position: absolute;
+    width: 160px;
+    height: 123px;
+    margin-right:200px;
+    z-index: 5;
+    left: 400px;
+    top: 233px;
+} 
+.img4 {
+    position: absolute;
+    float:left;
+    width: 160px;
+    height: 120px;
+    margin-right:200px;
+    z-index: 5;
+    top: 373px;
+    left: 400px;
+}
+.img5 {
+    position: absolute;
+    float:left;
+    width: 160px;
+    height: 120px;
+    margin-right:200px;
+    z-index: 5; 
+    left:640px;
+    bottom:297px;
+}
+.container2 {
+    position: absolute;
+  }
+  .container3 { 
+    position: absolute;
+    text-align: center;
+    color:black;
+    width: 160px;
+    z-index: 20;
+    top: 205px;
+    background-color: #4aaaa5;
+    opacity: .8;
+    border: 0px;
+    } 
+ .container4{ 
+    position: absolute;
+    text-align: center;
+    color:black;
+    width: 160px;
+    z-index: 20;
+    top: 343px;
+    background-color: #4aaaa5;
+    opacity: .8;
+    left:20px;
+    height: 17px;
+
+   
+    
+    } 
+.container5{ 
+        position: absolute;
+        text-align: center;
+        color:black;
+        width: 160px;
+        z-index: 20;
+        top:338px;
+        background-color: #4aaaa5;
+        opacity: .8;
+        border: 0px;
+        left: 400px;
+        } 
+.container6{ 
+            position: absolute;
+            text-align: center;
+            color:black;
+            width: 160px;
+            z-index: 20;
+            
+            background-color: #4aaaa5;
+            opacity: .8;
+            border: 0px;
+            left:400px;
+            top:475px;
+            } 
+.container7 {
+                position: absolute;
+                text-align: center;
+                color:black;
+                width: 160px;
+                z-index: 20;
+                bottom:297px;
+                left:640px;
+                background-color: #4aaaa5;
+                opacity: .8;
+                border: 0px; 
+}
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.aboutme {
+    float:left;
+    color:#4aaaa5;
+    padding-left: 20px;
+    
+}
+.aboutme1 {
+    position: relative;
+    color: #4aaaa5;
+    bottom: 120px;
+    left: 20px;
+}
+.container1 {
+    position: absolute;
+    top: 10px;
+    text-align: left;
+    height: 50%;
+    left: 20px;
+}
+.email {
+    position: relative;
+    height: 1px;
+    top: -100px;
+   
+    
+}
+
+p {
+color:#7777;
+text-align:justify;
+}
+.foot {
+position: fixed  ;
+width:100%;
+height: 7%;
+border-top: 5px solid #4aaaa5;
+background-color:rgb(153, 152, 152);
+color: #ffff;
+bottom:0;
+z-index: 100;
+flex-shrink: 1;
+}
+.foottext {
+position: relative;
+margin-top:0;
+text-align: center;
+padding-top: 25px;
+}
+    
+input[type=text], select, textarea {
+    position: relative;
+    width: 80%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 100px; 
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+ 
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
